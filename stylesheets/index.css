@@ -12,3 +12,33 @@ html {
 
   background: black;
 }
+
+.title-text {
+  border: 3px solid red;
+}
+
+.nav {
+  border: 3px solid blue;
+  padding: 0;
+}
+
+.top-bar {
+  background: rgba(0, 0, 255, 0.7);
+}
+
+.top-bar .title-text, 
+.top-bar .nav {
+  display: inline-block;
+}
+
+.nav li {
+  /* 
+  Inline makes them line up side by side,
+  but gives us little control over spacing.
+   */
+  /* display: inline; */
+  display: inline-block;
+  padding-left: 8px;
+}
+
+
