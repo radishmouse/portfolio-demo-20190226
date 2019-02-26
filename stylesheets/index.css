@@ -6,11 +6,9 @@ html {
   box-sizing: inherit;
 }
 
-div {
-    width: 400px;
-    padding: 10px;
-    background: red;
-    color: white;
-}
+.hero-image {
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
 
-/* add amazing styles here */
+  background: black;
+}
