@@ -1,1 +1,16 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div {
+    width: 400px;
+    padding: 10px;
+    background: red;
+    color: white;
+}
+
 /* add amazing styles here */
